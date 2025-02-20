@@ -1,4 +1,4 @@
-import 'package:ecommerce/widget/menu_carousel.dart';
+import 'package:ecommerce/carousel/menu_carousel.dart';
 import 'package:flutter/material.dart';
 
 class ShopHomeScreen extends StatelessWidget {
@@ -56,7 +56,9 @@ class ShopHomeScreen extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 10,),
-            MenuCarousel()
+            MenuCarousel(),
+            const SizedBox(height: 10,),
+            
           ],
         )
       ),
